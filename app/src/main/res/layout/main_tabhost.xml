@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    android:orientation="vertical"
+    tools:context=".Main">
+
+    <!--TabHost界面-->
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="10dip">
+
+                    <ExpandableListView
+                        android:id="@+id/expand"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:cacheColorHint="#00000000"
+                        android:divider="@null"
+
+                        android:fadingEdge="none"
+                        android:listSelector="#00000000"></ExpandableListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="10dip">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="你好" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="10dip">
+
+                    <ListView
+                        android:id="@+id/lv_sing"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:cacheColorHint="#00000000"
+                        android:divider="@null"
+                        android:fadingEdge="none"
+                        android:listSelector="#00000000"></ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="10dip">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="456" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+    </TabHost>
+
+
+    <!--下面的播放界面-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/player_progress_bg"
+            android:max="0"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:progressDrawable="@drawable/seekbar_img"
+            android:thumb="@drawable/media_player_progress_button" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip">
+
+            <ImageView
+                android:id="@+id/img_zj"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/ic_play_activity"
+                android:clickable="true" />
+
+            <ImageView
+                android:id="@+id/img_up"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/up"
+                android:clickable="true"
+                android:onClick="up" />
+
+            <ImageView
+                android:id="@+id/img_pause"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:background="@drawable/pause"
+                android:clickable="true"
+                android:onClick="start" />
+
+            <ImageView
+                android:id="@+id/img_next"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/next"
+                android:clickable="true"
+                android:onClick="next" />
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/menu"
+                android:clickable="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

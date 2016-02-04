@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome">
+
+    <Button
+        android:id="@+id/btnWelcom"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="#f50"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="2"
+        android:text="@string/skip"
+        android:textSize="8pt"
+        android:background="@drawable/welbtn"/>
+
+</RelativeLayout>
