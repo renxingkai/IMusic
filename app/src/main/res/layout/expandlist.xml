@@ -4,12 +4,11 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
-    
-       <TextView 
-           
+       <TextView
            android:layout_width="fill_parent"
            android:layout_height="25dip"
            android:id="@+id/text1"
+           android:textColor="#fff"
            android:layout_gravity="center_vertical"
            />
     

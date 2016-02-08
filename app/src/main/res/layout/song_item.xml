@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="5dip"
-       >
+        android:paddingLeft="5dip">
 
         <TextView
             android:id="@+id/tv_name"
@@ -17,14 +17,13 @@
             android:layout_weight="3"
             android:text="Black And Yellow"
             android:textSize="20sp" />
-        
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
-         android:paddingLeft="8dip"
-        >
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dip">
 
         <TextView
             android:id="@+id/tv_songer"
@@ -42,17 +41,11 @@
             android:gravity="bottom"
             android:text="3:50"
             android:textSize="13sp" />
-        
-      
+
+
     </LinearLayout>
-  <TextView 
-             android:id="@+id/tv_musicPath"
-             android:layout_width="0dip"
-             android:layout_height="0dip"
-            />
-        <TextView 
-             android:id="@+id/tv_musicRating"
-             android:layout_width="0dip"
-             android:layout_height="0dip"
-            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
 </LinearLayout>

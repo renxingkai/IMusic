@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bflb.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/defaul.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/gq.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_default.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_mp_current_playlist_btn.png" charset="GBK" />
@@ -14,7 +15,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_play_pressed.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_prev.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_prev_pressed.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/main.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/media_player_progress_bg.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/media_player_progress_button.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/menu.xml" charset="GBK" />
@@ -23,7 +23,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/player_progress_bg.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/seekbar_img.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/start.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_item4.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/up.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ysj.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/zj.png" charset="GBK" />
@@ -35,7 +34,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/tab_item2.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/tab_item3.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/tab_item4.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/ll/ic_play_pressed.png" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
